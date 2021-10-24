@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "--exec babel-node index.js",
+    "start": "nodemon --exec babel-node index.js",
     "start:dev": "nodemon --exec babel-node index.js"
   },
   "type": "module",
@@ -16,6 +16,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-3": "^6.24.1",
     "graphql-yoga": "^1.18.3",
-    "node-fetch": "^3.0.0"
+    "node-fetch": "^3.0.0",
+    "nodemon": "^2.0.14"
   }
 }
